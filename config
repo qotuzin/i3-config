@@ -25,6 +25,7 @@ include ./workspaces.conf
 include ./modes/controls.conf
 include ./modes/resize.conf
 include ./modes/system.conf
+include ./modes/opacity.conf
 include ./modes/open.conf
 
 ## STARTUP APPLICATIONS ##
