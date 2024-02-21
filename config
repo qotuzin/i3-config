@@ -23,6 +23,7 @@ include ./workspaces.conf
 
 # custom modes
 include ./modes/controls.conf
+include ./modes/display.conf
 include ./modes/resize.conf
 include ./modes/system.conf
 include ./modes/opacity.conf
