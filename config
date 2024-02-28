@@ -22,6 +22,7 @@ include ./bindings.conf
 include ./workspaces.conf
 
 # custom modes
+include ./modes/applets.conf
 include ./modes/controls.conf
 include ./modes/display.conf
 include ./modes/resize.conf
@@ -62,7 +63,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock --i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Volumeicon applet for adjusting audio settings from the status bar.
-exec --no-startup-id volumeicon
+exec --no-startup-id sh ./scripts/start-volumeicon.sh
 
 # Start Plover for stenography
 exec --no-startup-id plover
